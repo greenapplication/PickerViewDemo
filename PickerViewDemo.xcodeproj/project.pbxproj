@@ -13,6 +13,7 @@
 		043F0AC01C0EF18900867E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F0ABE1C0EF18900867E61 /* Main.storyboard */; };
 		043F0AC21C0EF18900867E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F0AC11C0EF18900867E61 /* Assets.xcassets */; };
 		043F0AC51C0EF18900867E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F0AC31C0EF18900867E61 /* LaunchScreen.storyboard */; };
+		043F0ACF1C0EF3EB00867E61 /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F0ACE1C0EF3EB00867E61 /* IQDropDownTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		043F0AC11C0EF18900867E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043F0AC41C0EF18900867E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043F0AC61C0EF18900867E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F0ACD1C0EF3EB00867E61 /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
+		043F0ACE1C0EF3EB00867E61 /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		043F0AB41C0EF18900867E61 /* PickerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				043F0ACC1C0EF3DD00867E61 /* IQDropDownTextField */,
 				043F0AB81C0EF18900867E61 /* AppDelegate.h */,
 				043F0AB91C0EF18900867E61 /* AppDelegate.m */,
 				043F0ABB1C0EF18900867E61 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				043F0AB61C0EF18900867E61 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043F0ACC1C0EF3DD00867E61 /* IQDropDownTextField */ = {
+			isa = PBXGroup;
+			children = (
+				043F0ACD1C0EF3EB00867E61 /* IQDropDownTextField.h */,
+				043F0ACE1C0EF3EB00867E61 /* IQDropDownTextField.m */,
+			);
+			name = IQDropDownTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043F0ACF1C0EF3EB00867E61 /* IQDropDownTextField.m in Sources */,
 				043F0ABD1C0EF18900867E61 /* ViewController.m in Sources */,
 				043F0ABA1C0EF18900867E61 /* AppDelegate.m in Sources */,
 				043F0AB71C0EF18900867E61 /* main.m in Sources */,
@@ -264,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PickerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.PickerViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PickerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.PickerViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
